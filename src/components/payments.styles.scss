@@ -166,7 +166,7 @@ $gutter-horizontal: 10.2rem;
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1100px) {
+@media only screen and (min-width: 991px) and (max-width: 1100px) {
   .payments__container--main {
     display: flex;
     flex-direction: column;
@@ -177,7 +177,14 @@ $gutter-horizontal: 10.2rem;
   .payments__container--left {
     width: 100%;
     margin-top: 1rem;
+    align-items: center;
     text-align: center;
+  }
+
+  .paragraph {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .Payments__container--right--main {
@@ -197,6 +204,12 @@ $gutter-horizontal: 10.2rem;
     width: 100%;
     margin-top: 1rem;
     text-align: center;
+  }
+
+  .paragraph {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .Payments__container--right--main {
@@ -221,10 +234,6 @@ $gutter-horizontal: 10.2rem;
 }
 
 @media only screen and (max-width: 576px) {
-  // .payments--card {
-  //   height: 23rem;
-  //   width: 16rem;
-  // }
   .payments__container--right {
     flex-direction: column;
   }

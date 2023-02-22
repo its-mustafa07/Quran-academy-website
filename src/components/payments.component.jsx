@@ -15,11 +15,13 @@ const Payments = () => {
           <h1>
             <span>Let’s get</span> <span>started</span>
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam
-          </p>
+          <div className="paragraph">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam
+            </p>
+          </div>
         </div>
         <div className="Payments__container--right--main">
           <div className="payments__container--right">
