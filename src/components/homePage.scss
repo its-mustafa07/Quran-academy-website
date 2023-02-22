@@ -1,0 +1,150 @@
+.header {
+  height: 100vh;
+  background-image: url("../assets/abdullah-arif-Dxi6KbpvUgA-unsplash-min.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  &__text--container {
+    position: absolute;
+    top: 27%;
+    left: 60%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  &__heading--main {
+    color: #fff;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    animation: moveInTop 1s ease-in-out;
+  }
+
+  &__heading--span {
+    display: block;
+  }
+}
+
+.btn-read {
+  padding: 1.1rem 1.9rem;
+  background: none;
+  color: #fff;
+  border: 0.2rem solid #173d3d;
+  border-radius: 0.3rem;
+  margin-top: 2.5rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  cursor: pointer;
+  animation: moveInBottom 1s ease-in-out;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #173d3d;
+    transform: translateY(-0.1rem);
+  }
+
+  &:active {
+    transform: translateY(0.1rem);
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+// MEDIA QUERIES
+
+@media only screen and (max-width: 991px) {
+  .header {
+    height: 60vh;
+  }
+  .header__text--container {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header__text--container {
+    font-size: 0.9rem;
+  }
+
+  .btn-read {
+    padding: 0.9rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+  }
+
+  .header__text--container {
+    width: 88vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .header__heading--span {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header__text--container {
+    font-size: 1rem;
+  }
+}
+
+// /* styles for screens up to 1200px */
+// @media only screen and (max-width: 1200px) {
+//   /* styles for screens up to 991px */
+//   @media only screen and (max-width: 991px) {
+//     /* your styles here */
+//   }
+
+//   /* styles for screens up to 767px */
+//   @media only screen and (max-width: 767px) {
+//     /* your styles here */
+//   }
+
+//   /* styles for screens up to 576px */
+//   @media only screen and (max-width: 576px) {
+//     /* your styles here */
+//   }
+
+//   /* styles for screens up to 320px */
+//   @media only screen and (max-width: 320px) {
+//     /* your styles here */
+//   }
+// }
