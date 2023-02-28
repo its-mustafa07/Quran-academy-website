@@ -18,7 +18,7 @@
     text-align: center;
     font-family: "Mulish", sans-serif;
     font-weight: 700;
-    animation: moveInTop 1s ease-in-out;
+    animation: moveInTop 2s ease-in-out;
   }
 
   &__heading--span {
@@ -37,7 +37,7 @@
   font-weight: 800;
   font-size: 1.4rem;
   cursor: pointer;
-  animation: moveInBottom 1s ease-in-out;
+  animation: moveInBottom 2s ease-in-out;
   transition: all 0.2s;
 
   &:hover {
@@ -126,25 +126,3 @@
   }
 }
 
-// /* styles for screens up to 1200px */
-// @media only screen and (max-width: 1200px) {
-//   /* styles for screens up to 991px */
-//   @media only screen and (max-width: 991px) {
-//     /* your styles here */
-//   }
-
-//   /* styles for screens up to 767px */
-//   @media only screen and (max-width: 767px) {
-//     /* your styles here */
-//   }
-
-//   /* styles for screens up to 576px */
-//   @media only screen and (max-width: 576px) {
-//     /* your styles here */
-//   }
-
-//   /* styles for screens up to 320px */
-//   @media only screen and (max-width: 320px) {
-//     /* your styles here */
-//   }
-// }
