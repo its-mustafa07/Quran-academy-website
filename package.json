@@ -2,7 +2,7 @@
   "name": "quran-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://its-mustafa07.github.io/quran-academy-website",
+  "homepage": "https://its-mustafa07.github.io/Quran-academy-website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
