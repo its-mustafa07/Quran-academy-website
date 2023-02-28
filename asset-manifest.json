@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/quran-academy-website/static/css/main.696fb627.css",
-    "main.js": "/quran-academy-website/static/js/main.4901587c.js",
-    "static/js/787.688ba83f.chunk.js": "/quran-academy-website/static/js/787.688ba83f.chunk.js",
-    "static/media/abdullah-arif-Dxi6KbpvUgA-unsplash-min.jpg": "/quran-academy-website/static/media/abdullah-arif-Dxi6KbpvUgA-unsplash-min.038482f3cfaa5c83eb58.jpg",
-    "static/media/logo.svg": "/quran-academy-website/static/media/logo.8375cec4891947ff82311f9e24b9e18d.svg",
-    "index.html": "/quran-academy-website/index.html",
-    "static/media/checkbox.svg": "/quran-academy-website/static/media/checkbox.d8e32afc2f257382d1f3.svg",
-    "main.696fb627.css.map": "/quran-academy-website/static/css/main.696fb627.css.map",
-    "main.4901587c.js.map": "/quran-academy-website/static/js/main.4901587c.js.map",
-    "787.688ba83f.chunk.js.map": "/quran-academy-website/static/js/787.688ba83f.chunk.js.map"
+    "main.css": "/Quran-academy-website/static/css/main.fb456653.css",
+    "main.js": "/Quran-academy-website/static/js/main.6b7171e3.js",
+    "static/js/787.688ba83f.chunk.js": "/Quran-academy-website/static/js/787.688ba83f.chunk.js",
+    "static/media/abdullah-arif-Dxi6KbpvUgA-unsplash-min.jpg": "/Quran-academy-website/static/media/abdullah-arif-Dxi6KbpvUgA-unsplash-min.038482f3cfaa5c83eb58.jpg",
+    "static/media/logo.svg": "/Quran-academy-website/static/media/logo.8375cec4891947ff82311f9e24b9e18d.svg",
+    "index.html": "/Quran-academy-website/index.html",
+    "static/media/checkbox.svg": "/Quran-academy-website/static/media/checkbox.d8e32afc2f257382d1f3.svg",
+    "main.fb456653.css.map": "/Quran-academy-website/static/css/main.fb456653.css.map",
+    "main.6b7171e3.js.map": "/Quran-academy-website/static/js/main.6b7171e3.js.map",
+    "787.688ba83f.chunk.js.map": "/Quran-academy-website/static/js/787.688ba83f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.696fb627.css",
-    "static/js/main.4901587c.js"
+    "static/css/main.fb456653.css",
+    "static/js/main.6b7171e3.js"
   ]
 }
